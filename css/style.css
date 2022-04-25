@@ -248,7 +248,9 @@ ul,ol {
 
 /*Чим ми займаємся*/
 
-
+.section-third{
+    padding-bottom: 94px;
+}
 
 .about-list{
     list-style: none;
@@ -257,13 +259,10 @@ ul,ol {
 
 }
 
-
-
 .about-item{
     display: flex;
     flex-basis:calc(100%/3 - 30px);
     margin-right: 30px;
-    padding-bottom: 94px;
 }
 
 .about-item:last-child{
@@ -318,8 +317,7 @@ ul,ol {
     letter-spacing: 0.03em;
     text-align: center;
 
-    margin-top: 30px;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 .team-text{
@@ -329,8 +327,11 @@ ul,ol {
     line-height: 1.2;
     letter-spacing: 0.03em;
     text-align: center;
+}
 
-    margin-bottom: 30px;
+.team-text-block{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 /* Підвал */
@@ -356,13 +357,16 @@ ul,ol {
     letter-spacing: 0.03em;
     cursor: default;
 
-    margin-top: 60px;
-
 }
 
 .footer-list{
     list-style: none;
-    padding-top: 20px;
+
+    margin-top: 20px;
+}
+
+.footer-item:nth-child(-n+2){
+    margin-bottom: 9px;
 }
 
 .footer-address{
@@ -449,6 +453,10 @@ ul,ol {
     margin-bottom: 50px;
 }
 
+.portfolio-botton-item:not(:first-child){
+    margin-left: 8px;
+}
+
 .hero-button-portfolio{
     font-family: 'Roboto', Tahoma, sans-serif;
     background-color: #F5F4FA;
@@ -458,7 +466,6 @@ ul,ol {
     line-height: 1.6;
     letter-spacing: 0.03em;
     border-radius: 4px;
-    margin-left: 8px;
 }
 
 .hero-button-portfolio:hover,
@@ -517,16 +524,19 @@ ul,ol {
     margin-bottom: 0;
 }
 
+.portfolio-text-block{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
 
 .portfolio-title{
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-
-    margin-top: 20px;
-    margin-bottom: 4px;
-    margin-left: 24px;
 }
 
 .portfolio-text{
@@ -535,8 +545,6 @@ ul,ol {
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
-    margin-bottom: 20px;
-    margin-left: 24px;
 }
 
 
