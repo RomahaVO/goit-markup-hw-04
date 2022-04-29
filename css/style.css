@@ -103,21 +103,26 @@ ul,ol {
 
 .header-connect{
     margin-left: auto;
+
 }
 
 .header-link-second{
     display: flex;
+
 
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     list-style: none;
     letter-spacing: 0.02em;
+
 }
 
 .header-link-text, .header-tel{
     color: var(--second-text-color);
     text-decoration: none;
+
+
 }
 
 .header-link-second:hover,
@@ -127,7 +132,17 @@ ul,ol {
 }
 
 .header-tel{
-    margin-left: 50px;
+    margin-left: 30px;
+    align-items: baseline;
+}
+.header-link-item{
+
+}
+
+.header-link-icon{
+    margin-right: 10px;
+    align-items: center;
+    
 }
 
 .header{
@@ -228,6 +243,12 @@ ul,ol {
     margin-bottom: 94px; */
 
 }
+
+.benefits-item{
+    
+
+}
+
 .benefits-pictures {
     display: inline-flex;
     background: #F5F4FA;
@@ -235,6 +256,10 @@ ul,ol {
     height: 120px;
     border-radius: 4px; 
     margin-bottom: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    justify-self: center;
 }
 
 .benefits-title{
@@ -346,10 +371,12 @@ ul,ol {
     letter-spacing: 0.03em;
     text-align: center;
 }
+
 .team-socs{
     display: flex;
     list-style: none;
     justify-content: center;
+
 
 }
 
@@ -357,15 +384,32 @@ ul,ol {
     display: inline-flex;
     width: 44px;
     height: 44px;
-    background-color: #2196F3;
+    /* background-color:; */
     border-radius: 50%;
     margin-top: 16px;
     margin-right: 10px;
+    justify-content: center;
     align-items: center;
+
 }
 
-.team-socs{
-    display: flex;
+.team-socs-item:last-child{
+    margin-right: 0;
+}
+
+.team-socs-item:hover{
+    background: var(--akcent-color);
+    fill: #FFFFFF;
+}
+
+.team-socs-link{
+
+}
+
+.team-socs-icon{
+
+
+
 }
 
 .team-text-block{
@@ -399,19 +443,34 @@ ul,ol {
     border: 1px solid #AFB1B8;
     box-sizing: border-box;
     border-radius: 4px;
+    color: #AFB1B8;
     
     width: 170px;
     height: 92px;
 
 
     margin-right: 30px;
-    
+
+    padding-top: 16px;
+    padding-right: 32px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+}
+
+.client-item:hover{
+    fill:var(--akcent-color);
 
 }
 
 .client-item:last-child{
     margin-right: 0;
 }
+
+.client-icon{
+
+
+}
+
 
 /* Підвал */
 
@@ -422,7 +481,7 @@ ul,ol {
 
 .address{
     display: flex;
-    align-items: baseline;
+
 }
 
 .footer-cordenats{
@@ -487,7 +546,12 @@ ul,ol {
     cursor: default;
 } 
 
+.footer-conect{
+    display: flex;
+    flex-direction: column;
 
+    margin-top: 12px;
+}
 
 .conect-title{
     font-style: normal;
@@ -497,6 +561,8 @@ ul,ol {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
+
+    align-items: baseline;
     
 }
 
@@ -504,21 +570,41 @@ ul,ol {
     display: flex;
     list-style: none;
 
+
 }
 
 .conect-item{
+    display: flex;
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    background-color: #2196F3;
+    background-color: rgba(255, 255, 255, 0.1);
 
     margin-top: 20px;
     margin-right: 10px;
+    
+    justify-content: center;
+    align-items: center;
+
+
 
 }
 
 .conect-item:last-child{
     margin-right: 0;
+}
+
+.footer-link-icon{
+
+
+}
+
+.footer-icon{
+    justify-content: center;
+    align-items: center;
+
+
+
 }
 
 
