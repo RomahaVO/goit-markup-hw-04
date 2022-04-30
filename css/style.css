@@ -381,15 +381,19 @@ ul,ol {
 }
 
 .team-socs-item{
-    display: inline-flex;
-    width: 44px;
-    height: 44px;
-    /* background-color:; */
-    border-radius: 50%;
     margin-top: 16px;
     margin-right: 10px;
+}
+
+.team-socs-link{
+    display:flex;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+
     justify-content: center;
     align-items: center;
+    fill: #afb1b8;
 
 }
 
@@ -397,18 +401,12 @@ ul,ol {
     margin-right: 0;
 }
 
-.team-socs-item:hover{
+.team-socs-link:hover{
     background: var(--akcent-color);
     fill: #FFFFFF;
 }
 
-.team-socs-link{
-
-}
-
 .team-socs-icon{
-
-
 
 }
 
@@ -416,6 +414,9 @@ ul,ol {
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
+/* fill="#afb1b8" style="fill: var(--color3, #afb1b8)"
+fill="#afb1b8" style="fill: var(--color3, #afb1b8)" */
 
 
 
