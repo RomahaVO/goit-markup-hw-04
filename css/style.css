@@ -403,7 +403,8 @@ ul,ol {
     margin-right: 0;
 }
 
-.team-socs-link:hover{
+.team-socs-link:hover,
+.team-socs-link:focus{
     background: var(--akcent-color);
     fill: var(--title-white-color);
 }
@@ -460,7 +461,8 @@ ul,ol {
     
 }
 
-.client-link:hover{
+.client-link:hover,
+.client-link:focus{
     border-color: var(--akcent-color);
     fill: var(--akcent-color);
 }
@@ -595,7 +597,8 @@ ul,ol {
 
 }
 
-.footer-link-icon:hover{
+.footer-link-icon:hover,
+.footer-link-icon:focus{
     background-color:var(--akcent-color);
 }
 
