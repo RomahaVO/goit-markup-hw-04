@@ -169,7 +169,7 @@ ul,ol {
 
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
     url(../images/hero.jpg);
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -182,10 +182,13 @@ ul,ol {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     text-align: center;
+
+    width: 696px;
+    margin: auto;
     
     padding-bottom: 30px;
-    padding-left: 252px;
-    padding-right: 252px;
+    /* padding-left: 252px;
+    padding-right: 252px; */
 }
 
 .button{
@@ -625,7 +628,7 @@ ul,ol {
     line-height: 1.2;
     text-decoration: none;
     letter-spacing: 0.03em;
-    cursor: default;
+    /* cursor: default; */
 
     margin-right: 93px;
 }
@@ -637,14 +640,14 @@ ul,ol {
 .header-link-portfolio{
     color: var(--primery-text-color);
     text-decoration: none;
-    cursor: default;
+    cursor: pointer;
 
 }
 
-.header-link-potfolio:hover,
-.header-link-potfolio:focus {
+.header-link-portfolio:hover,
+.header-link-portfolio:focus{
     color: var(--akcent-color);
-    cursor: default;
+    cursor: pointer;
 }
 
 .header-link-portfolio.current{
@@ -657,7 +660,14 @@ ul,ol {
     text-decoration: none;
     align-items: center;
     text-decoration: none;
-    cursor: default;
+    cursor: pointer;
+}
+
+.header-link-text-portfolio:hover,
+.header-link-text-portfolio:focus,
+.header-tel-portfolio:hover,
+.header-tel-portfolio:focus{
+    color: var(--akcent-color);
 }
 
 .header-tel-portfolio{
@@ -693,7 +703,8 @@ ul,ol {
 
 .hero-button-portfolio:hover,
 .hero-button-portfolio:focus{
-    border-color: var(--akcent-color);
+    background: var(--akcent-color);
+    color:var(--title-white-color);
     cursor: pointer;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
